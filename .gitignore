@@ -1,0 +1,40 @@
+@'
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+.env
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Frontend build
+frontend/dist/
+
+# Uploads
+uploads/
+
+# Videos
+*.mp4
+
+# Large datasets
+dataset/data.csv
+dataset/bert_dataset.csv
+
+# Trained models
+model/
+*.pkl
+*.pt
+*.pth
+*.onnx
+*.h5
+
+# Archives
+*.zip
+*.rar
+*.7z
+'@ | Set-Content .gitignore
