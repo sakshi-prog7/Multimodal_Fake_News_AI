@@ -26,12 +26,12 @@ dataset/data.csv
 dataset/bert_dataset.csv
 
 # Trained models
-model/
-*.pkl
-*.pt
-*.pth
-*.onnx
-*.h5
+##model/
+##*.pkl
+#*.pt
+#*.pth
+#*.onnx
+#*.h5
 
 # Archives
 *.zip
